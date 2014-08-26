@@ -1,0 +1,46 @@
+application: gdayskenya14
+version: 2
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+#root
+- url: /
+  static_files: index.html
+  upload: index.html
+
+# serve index.html if requested
+- url: /index.html
+  static_files: index.html
+  upload: index.html
+
+#serve specific html pages
+- url: /about.html
+  static_files: about.html
+  upload: about.html
+
+- url: /agenda.html
+  static_files: agenda.html
+  upload: agenda.html
+
+- url: /contact.html
+  static_files: contact.html
+  upload: contact.html
+
+- url: /speakers.html
+  static_files: speakers.html
+  upload: speakers.html
+
+#all static  files
+- url: /assets
+  static_dir: assets
+
+# serve all kind of image files
+- url: /(.*\.(bmp|gif|ico|jpeg|jpg|png))
+  static_files: assets/\1
+  upload: assets/(.*\.(bmp|gif|ico|jpeg|jpg|png))
+
+libraries:
+- name: webapp2
+  version: latest
