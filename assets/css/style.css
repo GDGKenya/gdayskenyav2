@@ -160,10 +160,11 @@ footer .copyright { color: #999; font-size: 13px; font-weight: 700; margin: 10px
 @media (min-width: 768px) {
 	header#intro { padding: 35px 0; }
 	header#intro .container { max-width: 940px; width: 100%; }
-	header#intro .logo { height: auto; width: 300px; text-align: right; }
+	header#intro .logo { height: auto; width: 200px; }
 	header#intro .logo img { width: 100%; }
 	header#intro .introduction { float: right; max-width: 610px; width: 72%; }
-	#main .container { width: 600px; }	
+	#main .container { width: 600px; }
+	header#intro .logo.home {width: 300px; text-align: right;}	
 }
 
 /* Landscape phone to portrait tablet */
