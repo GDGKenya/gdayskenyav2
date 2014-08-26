@@ -90,8 +90,8 @@ header h1.logo a span { display: none; }
 header .introduction { float: right; margin: 0; width: 610px; }
 header .introduction h2 { color: #000; font-size: 30px; font-weight: 100; line-height: 30px; margin: 0 0 20px; }
 header p { margin-bottom: 15px; }
-header .date { font-size: 1.2em; color: #999; }
-header .date span { color: #D80000; font-weight: 400; }
+header .date { font-size: 1.2em; color: #999; border-left:solid 4px #eea236; padding: 0 5px; }
+/*header .date span { color: #D80000; font-weight: 400; }*/
 
 .btn { display: inline-block; text-decoration: none; }
 .btn:hover{ text-decoration: none;}
