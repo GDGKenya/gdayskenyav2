@@ -1,10 +1,10 @@
-#GDays Kenya Repo
+#The Link 2014 
 ------------------
 
 
 ## Introduction
 
-Welcome to the GDays Kenya Repository that is serving our [G|Days Kenya Site](http://gdayskenya14.appspot.com/).
+Welcome to the official website and codebase serving The Link confrence 2014
 
 ## Requirements
 Set up Python For App Engine
